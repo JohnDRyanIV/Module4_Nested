@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0b513e49-e852-431e-b09e-792fcf41414e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_coupon_calculations.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_coupon_calculations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/coupon_calculations.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/coupon_calculations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581552865899</updated>
       <workItem from="1581552878599" duration="105000" />
-      <workItem from="1581552996308" duration="5931000" />
+      <workItem from="1581552996308" duration="6233000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up with git">
       <created>1581552950102</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581558749328</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="3rd series of tests created, none pass where total &gt; 30">
+      <created>1581559190678</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581559190678</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,44 +196,45 @@
     <MESSAGE value="Partially implemented calculate_price, imported decimal to fix floating point math errors" />
     <MESSAGE value="Implemented second set of tests, all fail" />
     <MESSAGE value="Removed redundant Decimal conversions, further implemented calculate_price function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed redundant Decimal conversions, further implemented calculate_price function" />
+    <MESSAGE value="3rd series of tests created, none pass where total &gt; 30" />
+    <option name="LAST_COMMIT_MESSAGE" value="3rd series of tests created, none pass where total &gt; 30" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="432" y="173" key="CommitChangelistDialog2" timestamp="1581558748324">
+    <state x="432" y="173" key="CommitChangelistDialog2" timestamp="1581559269417">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="432" y="173" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1581558748324" />
+    <state x="432" y="173" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1581559269417" />
     <state x="1220" y="284" key="FileChooserDialogImpl" timestamp="1581553286720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1220" y="284" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1581553286720" />
-    <state width="914" height="285" key="GridCell.Tab.0.bottom" timestamp="1581559131491">
+    <state width="914" height="285" key="GridCell.Tab.0.bottom" timestamp="1581559217154">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1581559131491" />
-    <state width="914" height="285" key="GridCell.Tab.0.center" timestamp="1581559131491">
+    <state width="914" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1581559217154" />
+    <state width="914" height="285" key="GridCell.Tab.0.center" timestamp="1581559217153">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1581559131491" />
-    <state width="914" height="285" key="GridCell.Tab.0.left" timestamp="1581559131491">
+    <state width="914" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1581559217153" />
+    <state width="914" height="285" key="GridCell.Tab.0.left" timestamp="1581559217153">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1581559131491" />
-    <state width="914" height="285" key="GridCell.Tab.0.right" timestamp="1581559131491">
+    <state width="914" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1581559217153" />
+    <state width="914" height="285" key="GridCell.Tab.0.right" timestamp="1581559217153">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="914" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1581559131491" />
-    <state x="961" y="263" key="Vcs.Push.Dialog.v2" timestamp="1581558294627">
+    <state width="914" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1581559217153" />
+    <state x="961" y="263" key="Vcs.Push.Dialog.v2" timestamp="1581559246878">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="961" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1581558294627" />
+    <state x="961" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1581559246878" />
     <state x="1135" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1581552996795">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1135" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1581552996795" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Module4_Nested$Unittests_in_test_coupon_calculations_py.coverage" NAME="Unittests in test_coupon_calculations.py Coverage Results" MODIFIED="1581559131478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Module4_Nested$Unittests_in_test_coupon_calculations_py.coverage" NAME="Unittests in test_coupon_calculations.py Coverage Results" MODIFIED="1581559217145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Module4_Nested$test_coupon_calculations.coverage" NAME="test_coupon_calculations Coverage Results" MODIFIED="1581553758169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Module4_Nested$coupon_calculations.coverage" NAME="coupon_calculations Coverage Results" MODIFIED="1581556780281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/store" />
   </component>

@@ -11,6 +11,8 @@ def calculate_price(price, cash_coupon, percentage_coupon):
         total = total + Decimal(5.95)
     elif total < 30:
         total = total + Decimal(7.95)
+    elif total < 50:
+        total = total + Decimal(11.95)
 
     # Setting precision so that total is returned with proper number of decimal places
     precision = 2
@@ -21,7 +23,7 @@ def calculate_price(price, cash_coupon, percentage_coupon):
 
     getcontext().prec = precision
     total = total + tax
-    print(total)
+    # print(total)
     # Converting to float so other programs don't have to import decimal class
     total = float(total)
 
