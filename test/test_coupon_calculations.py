@@ -5,13 +5,11 @@ from store import coupon_calculations as topic2
 
 class MyTestCase(unittest.TestCase):
     def test_under_10(self):
-        assert topic2.calculate_price(5, 2, 50) == 2.5
-        assert topic2.calculate_price(4, 0, 90) == .4
-        assert topic2.calculate_price(3, 1, 40) == 1.2
-        assert topic2.calculate_price(9, 2, 73) == 1.89
-        assert topic2.calculate_price(8, 4, 50) == 2
-        assert topic2.calculate_price(1, 1, 0) == 0
-        assert topic2.calculate_price(1, 0, 100) == 0
+        assert topic2.calculate_price(5, 5, 0) == 5.95
+        assert topic2.calculate_price(7, 5, 20) == 7.646
+        assert topic2.calculate_price(9, 2, 20) == 11.886
+        assert topic2.calculate_price(8, 5, 15) == 8.653
+        assert topic2.calculate_price(9, 0, 0) == 15.49
 
 
 if __name__ == '__main__':

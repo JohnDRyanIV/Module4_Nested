@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b513e49-e852-431e-b09e-792fcf41414e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/store/coupon_calculations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test_coupon_calculations.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_coupon_calculations.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_coupon_calculations.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581552865899</updated>
       <workItem from="1581552878599" duration="105000" />
-      <workItem from="1581552996308" duration="750000" />
+      <workItem from="1581552996308" duration="1261000" />
     </task>
     <task id="LOCAL-00001" summary="Setting up with git">
       <created>1581552950102</created>
@@ -103,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581553021355</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First tests failed">
+      <created>1581553785218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581553785218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,21 +117,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting up with git" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting up with git" />
+    <MESSAGE value="First tests failed" />
+    <option name="LAST_COMMIT_MESSAGE" value="First tests failed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1046" y="122" key="CommitChangelistDialog2" timestamp="1581553019822">
+    <state x="1046" y="122" key="CommitChangelistDialog2" timestamp="1581553784169">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1046" y="122" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1581553019822" />
+    <state x="1046" y="122" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1581553784169" />
     <state x="1220" y="284" key="FileChooserDialogImpl" timestamp="1581553286720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1220" y="284" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1581553286720" />
-    <state x="961" y="263" key="Vcs.Push.Dialog.v2" timestamp="1581553052949">
+    <state x="961" y="263" key="Vcs.Push.Dialog.v2" timestamp="1581553799592">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="961" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1581553052949" />
+    <state x="961" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1581553799592" />
     <state x="1135" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1581552996795">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
