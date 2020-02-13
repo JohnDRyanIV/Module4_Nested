@@ -3,12 +3,14 @@ from decimal import *
 
 def calculate_price(price, cash_coupon, percentage_coupon):
     getcontext().prec = 20
-    total = price - cash_coupon  # Applying cash coupon discount
+    total = Decimal(price) - Decimal(cash_coupon)  # Applying cash coupon discount
     total = total - (total * Decimal((percentage_coupon / 100)))  # Applying percentage discount
-    tax = Decimal(total) * Decimal(.06)  # Calculating tax
+    tax = total * Decimal(.06)  # Calculating tax
     # Adding shipping cost
     if total < 10:
-        total = Decimal(total) + Decimal(5.95)
+        total = total + Decimal(5.95)
+    elif total < 30:
+        total = total + Decimal(7.95)
 
     # Setting precision so that total is returned with proper number of decimal places
     precision = 2
@@ -18,7 +20,8 @@ def calculate_price(price, cash_coupon, percentage_coupon):
         precision = precision + 1
 
     getcontext().prec = precision
-    total = Decimal(total) + Decimal(tax)
+    total = total + tax
+    print(total)
     # Converting to float so other programs don't have to import decimal class
     total = float(total)
 
