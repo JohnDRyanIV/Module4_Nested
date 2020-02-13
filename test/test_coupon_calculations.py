@@ -16,6 +16,14 @@ class MyTestCase(unittest.TestCase):
         assert topic2.calculate_price(29.99, 0, 0) == 39.74
         assert topic2.calculate_price(20, 5, 15) == 21.47
         assert topic2.calculate_price(18.76, 10, 10) == 14.31
+    def test_between_30_and_under_50(self):
+        assert topic2.calculate_price(45.87, 10, 20) == 38.37
+        assert topic2.calculate_price(37.43, 0, 15) == 45.67
+        assert topic2.calculate_price(49.99, 0, 0) == 64.94
+        assert topic2.calculate_price(30, 10, 20) == 24.91
+        assert topic2.calculate_price(35.55, 5, 15) == 35.48
+        assert topic2.calculate_price(40, 5, 10) == 45.34
+
 
 
 
